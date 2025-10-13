@@ -9,9 +9,28 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+<!--    ĐÂY LÀ NƠI KHAI BÁO CÁC THƯ VIỆN LẬP TRÌNH MÌNH SẼ DÙNG TRONG APP - THƯ VIỆN LẬP TRÌNH - LIBRARY CHẲNG QUA LÀ CÁI FILE "NHỊ PHÂN" AI ĐÓ LÀM SẴN, CHỨA 1 ĐỐNG CLASS VÀ CÁC HÀM CÓ SẲN CHO ANH EM DEV DUN TRONG CODE
+    VÍ DỤ MÌNH CẦN EXPORT DATA RA FILE PDF , HAY IMPORT T EXCEL, TA SẺ TÌM THƯ VIỆN TRÊN MẠNG CÓ SẴN TÍNH NĂNG NÀY, TẢI VỀ, ADD VÀO PROJECT, IMPORT PACKET.CLASS TƯƠNG ỨNG ĐỂ GÕ CODE
+    TÌM, TẢI, ADD, IMPORT, DÙNG-->
+
+<!--    THƯ VIỆN KỂ TỪ NAY VỀ SAU, GỌI TÊN MỚI: DEPENDENCY, TẢI DEPENDENCY VỀ, ADD DEPENDENCY VÀO PROJECT, IMPORT DEPENDENCY-->
+<!--  vào kho mvn depencency: chọn Jupitor - chọn phần có aggrecator ()là nó gom luôn phần api vs angine-->
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>6.0.0-RC3</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
 
 </project>

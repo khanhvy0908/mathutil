@@ -11,6 +11,7 @@ public class Main {
         testFactorialGivenRightArg0RunsWell();
         //testFactorialGivenRightArg5RunsWell();
         testFactorialGivenRightArg6RunsWell();
+        testFactorialGivenWrongArgMinus5ThrowsException();
     }
     // test case #1: Check/Verify getFactorial() method with valid parameter, e.g. n = 0
 
@@ -67,4 +68,18 @@ public class Main {
     public static void testFactorialGivenRightArg6RunsWell(){
         System.out.println("6! expected = 720 | actual = " + MathUtil.getFactorial(6));
     }
+
+    // test case #4: Check/Verify getFactorial() method with INvalid parameter, e.g. n = -5
+    // Steps/ procedure:
+    // 1. Given aN INvalid n,  e.g. n = -5
+    // 2. call.invoke getFactorial(n=-5)
+    // 3. execute
+    // EXPECTED RESULT:
+    // The METHOD will throw an exception.
+    // STATUS:
+    // (PASSED | FAIL) đoán xem, chạy app đã
+    public static void testFactorialGivenWrongArgMinus5ThrowsException(){
+        MathUtil.getFactorial(-5);   // hàm passed, vì expected value = actual value = hàm ném ra ngoại lệ. Ngoại lệ với số âm giai thừa.
+    }
+
 }

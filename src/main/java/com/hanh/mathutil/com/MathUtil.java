@@ -26,6 +26,5 @@ public class MathUtil {
         }
 
         return result;
-
     }
 }
