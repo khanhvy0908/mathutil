@@ -47,7 +47,7 @@ public class Main {
 
     public static void testFactorialGivenRightArg5RunsWell(){
         int n = 5;
-        long expectedValue = 120; // hope to see 5! = 120, kì vọng
+        long expectedValue = 1200; // hope to see 5! = 120, kì vọng
 
         // gọi hàm để xem actual long actualValue
         long actualValue = MathUtil.getFactorial(n);
